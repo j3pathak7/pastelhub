@@ -34,7 +34,7 @@ const Example = () => {
               </p>
               <a
                 href="#"
-                className="bg-pink text-white font-bold py-2 px-4 rounded-full inline-block hover:bg-gray-300 transition duration-300"
+                className="bg-pink text-white font-bold py-2 px-4 rounded-full inline-block hover:bg-secondary transition duration-300"
               >
                 Order Now
               </a>

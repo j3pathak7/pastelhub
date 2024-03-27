@@ -21,3 +21,11 @@
 .heading{
     @apply font-dancing_script
 }
+
+.hide-scrollbar {
+    overflow-x: auto;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+}
