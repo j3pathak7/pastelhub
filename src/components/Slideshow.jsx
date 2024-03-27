@@ -38,7 +38,7 @@ const Example = () => {
                 className="bg-pink text-white font-bold py-2 px-4 rounded-full inline-block hover:bg-secondary transition duration-300"
               >
                 Order Now
-              </Likn>
+              </Link>
             </div>
             <div className="m-4 md:m-8">
               <Image
