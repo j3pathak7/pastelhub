@@ -7,10 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: "#ff7f50", // Orange color resembling the warmth and sweetness of baked goods
+        secondary: "#ffd700", // Gold color representing quality and richness
+        tertiary: "#f4a460", // Light brown color resembling the color of baked cakes
+        background: "#fafafa",
+        alte: "#f2ebe2",
+        pink: "#e37277",
+        chocolate: "#5e3b3e",
+      },
+      fontFamily: {
+        dancing_script: ["var(--font-dancing_script)"],
       },
     },
   },
