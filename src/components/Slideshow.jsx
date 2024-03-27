@@ -5,6 +5,7 @@ import "react-slideshow-image/dist/styles.css";
 import { GrLinkPrevious } from "react-icons/gr";
 import { GrLinkNext } from "react-icons/gr";
 import HeroCardSection from "./HeroCardSection";
+import Link from "next/link";
 const properties = {
   prevArrow: <GrLinkPrevious className="m-2" />,
   nextArrow: <GrLinkNext className="m-2" />,
@@ -32,12 +33,12 @@ const Example = () => {
               <p className="text-sm md:text-md lg:text-xl mb-4 text-gray-400">
                 Indulge in our delicious cakes and desserts
               </p>
-              <a
-                href="#"
+              <Link
+                href="/cakes"
                 className="bg-pink text-white font-bold py-2 px-4 rounded-full inline-block hover:bg-secondary transition duration-300"
               >
                 Order Now
-              </a>
+              </Likn>
             </div>
             <div className="m-4 md:m-8">
               <Image
