@@ -1,11 +1,11 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { db } from "../config/firebase";
 import { collection, getDocs } from "firebase/firestore";
 import HorizontalScrollCakes from "./HorizontalScrollCard";
 import Link from "next/link";
 
-const cakesHorizontalScroll = () => {
+const CakesHorizontalScroll = () => {
   const [cakeList, setcakeList] = useState(null); // Initialize cakeList as null
 
   useEffect(() => {
@@ -57,4 +57,4 @@ const cakesHorizontalScroll = () => {
   );
 };
 
-export default cakesHorizontalScroll;
+export default CakesHorizontalScroll;

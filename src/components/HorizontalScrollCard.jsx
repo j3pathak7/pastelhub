@@ -1,5 +1,4 @@
 import React from "react";
-import { FaGasPump } from "react-icons/fa";
 import Link from "next/link"; // Importing the Link component from Next.js
 import Image from "next/image";
 
